@@ -1,3 +1,10 @@
+## React app using AWS serverless
+This invoice app incorporates the basic CRUD operations with the help of AWS and its serverless services.
+AWS Lambda is employed for the event-driven compute that will perform the read/write operations on the database to retrieve/show data accordingly
+AWS DynamoDB used as the no-sql database that helps in efficient querying and data retrieval
+AWS API Gateway serves as the service that provides the backend services and manages the API routes that are created to be used in the frontend. The trigger function is the Lambda function that is executed everytime an API route from the API Gateway is hit.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
